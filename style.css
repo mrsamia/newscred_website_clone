@@ -1,3 +1,13 @@
+.main_header{
+   text-align: center;
+    font-weight:900;
+    margin-top:70px;
+}
+
+.card_decoration_1{
+   box-shadow: 0 0px 13px rgba(0, 0, 0, 0.2) ;
+}
+
 .card_decoration{
  border-radius:5px;  
  box-shadow: 0 0px 13px rgba(0, 0, 0, 0.2) ;
@@ -12,6 +22,10 @@
    border: none;
    color: white;
 }
+.card_tittle_decoration{
+   font-weight:600;
+   
+}
 
 .card_decoration .card-image-icon{
    background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/original-content-green.png');
@@ -21,4 +35,61 @@
 
 .card_decoration:hover .card-image-icon{
    background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/original-content-white.png');
+}
+
+.card_decoration .card-image-icon_2{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/licensed-content.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration:hover .card-image-icon_2{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/licensed-content-white.png');
+}
+.card_decoration .card-image-icon_3{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/stategy-services.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration:hover .card-image-icon_3{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/stategy-services-white.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration .card-image-icon_4{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2018/12/window-paragraph.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration:hover .card-image-icon_4{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/content-hub-white.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration .card-image-icon_5{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/maketing-pf.png');
+   height: 35px;
+   width: 35px;
+}
+.card_decoration:hover .card-image-icon_5{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/maketing-pf-white.png');
+   height: 35px;
+   width: 35px;
+}
+
+
+.buttton{
+  height: 52px;
+  width:450px;
+  font-weight:600;
+}
+.caard_header{
+   text-align:center; 
+   font-weight:600;
+}
+
+.buttton_2{
+   width: 395px; 
+   border: 1px solid #49a549; 
+   color:#49a549; 
+   font-weight:600;
 }
