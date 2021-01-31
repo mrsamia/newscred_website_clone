@@ -1,0 +1,24 @@
+.card_decoration{
+ border-radius:5px;  
+ box-shadow: 0 0px 13px rgba(0, 0, 0, 0.2) ;
+ padding: 30px;
+ transition: all ease .3s;
+ color: black;
+}
+.card_decoration:hover{
+   background: rgb(241,31,13);
+   background: linear-gradient(145deg, #ef2b35, rgba(59, 211, 212, 0.7)) !important;
+   transform:translateY(-5px);
+   border: none;
+   color: white;
+}
+
+.card_decoration .card-image-icon{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/original-content-green.png');
+   height: 35px;
+   width: 35px;
+}
+
+.card_decoration:hover .card-image-icon{
+   background-image: url('https://www.newscred.com/wp-content/uploads/2020/03/original-content-white.png');
+}
